@@ -1,4 +1,4 @@
-size(700, 500); //Display Geometry (Orientations): Square, Landscape, Portrait
+size(1200, 800); //Display Geometry (Orientations): Square, Landscape, Portrait
 //fullScreen(); //displayWidth, displayHeight
 println("Canvas Size", width, height);
 println("Display", "width: ", displayWidth, " height: ", displayHeight);
