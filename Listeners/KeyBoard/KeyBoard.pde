@@ -3,8 +3,7 @@ Boolean nightMode=false;
 //
 void setup()
 {
-  //size(700, 500);
-  //fullScreen();
+  size(700, 500);
 }//End setup
 //
 void draw()
@@ -13,11 +12,9 @@ void draw()
   if (nightMode == false) println("n");
 }//End draw
 //
-void keyPressed()
-{
-  if ( key == 'N' || key == 'n' ) nightMode = true;
-  if ( key == CODED && keyCode == LEFT) nightMode = false;
-}//End keyPressed
+void keyPressed() {}//End keyPressed
 //
-void mousePressed() {
+void mousePressed() 
+{
+  nightMode = true;
 }//End mousePressed
